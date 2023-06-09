@@ -14,6 +14,8 @@ It  helps us to handle asynchronous tasks.
 
 ### Architecture
 
+This sample application computes fibonacci number in async fashion.
+
 ![alt text](arch.png)
 
 ### Setting up the VirtualEnv and install dependencies
