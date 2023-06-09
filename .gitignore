@@ -1,0 +1,25 @@
+.vscode/
+.DS_Store
+__pycache__/
+.cache
+nosetests.xml
+*.sqlite
+.pytest_cache/
+
+*.log
+local_settings.py
+db.sqlite3
+.python
+
+# PyBuilder
+target/
+
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+
+# Environments
+.env
+.venv
