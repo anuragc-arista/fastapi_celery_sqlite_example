@@ -18,6 +18,11 @@ This sample application computes fibonacci number in async fashion.
 
 ![alt text](arch.png)
 
+
+How its useful in rbsAgent context ?
+ -Many of our REST end-points(Ex: `Upload, CreateVmDkImages`) are going to be async. This provides generic framework. For every async API we will have to define
+ task handler inside  `create_tasks/tasks.py`
+
 ### Setting up the VirtualEnv and install dependencies
 
 Go inside the project folder and execute the below commands. Use `pipenv` to setup the VirtualEnv.
